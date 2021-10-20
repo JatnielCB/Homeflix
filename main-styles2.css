@@ -1,0 +1,152 @@
+*
+  {
+  margin: 0;
+  padding: 0;
+  }
+
+.choose-welcome
+  {
+  color: #83A2BF;
+  font-weight: lighter;
+  }
+
+.title
+  {
+  margin-bottom:10px;
+  font-weight: 400;
+  }
+
+html
+  {
+  display: inline;
+  box-sizing: border-box;
+  }
+
+
+#container
+  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 500px;
+  min-width:320px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: rgb(36,31,120);
+  background: linear-gradient(180deg, rgba(36,31,120,1) 36%, rgba(18,9,17,1) 97%);
+  font-size: 15px;
+  }
+
+#card
+  {
+  position: absolute;
+  top: 15vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+  font-weight: small;
+  background:#99220a;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  }
+
+#logo
+  {
+  max-width: 600px;
+  width: 60vw ;
+  }
+
+#log-in-form
+  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.inputs
+  {
+  display: block;
+  
+  width: 18em;
+  margin:10px 5px 10px 5px;
+  height: 1.6rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  }
+
+.submit-btn
+  {
+  align-self: center;
+  display: block;
+  width: 230px;
+  height: 2rem;
+  margin:10px 0px 20px 0px;
+  }
+
+@media(max-width:690px)
+  {
+
+    #logo
+      {
+      max-width: 300px;
+      width: 54.6vw ;
+      }
+
+    #log-in
+      {
+      max-width:300px ;
+      }
+    .inputs
+      {
+      width: 15em;
+      height: 1rem;
+      }
+    .submit-btn
+      {
+      margin:0px 0px 0px 0px;
+      }
+  }
+
+@media(max-width:519px)
+  {
+  #card
+    {
+    background:none;
+    }
+
+  #log-in
+    {
+    max-width: 600px;
+    min-width: 320px;
+    background:#99220a;
+    }
+
+  .inputs
+    {
+    align-self: center;
+    width:18.3em;
+    }
+
+  #logo
+    {
+    min-width: 320px;
+    }
+
+  .submit-btn
+    {
+    margin:0px 0px 10px 0px;
+    }
+
+  }
+/*background:#1a1429;*/ 
